@@ -1,10 +1,16 @@
 class Demo:
 
-    
+    @staticmethod
     def m4():
         print("Sample")
-    def m5()
+   
+    @staticmethod
+    def m5():
         print("Sample2")
+
+   @staticmethod
+   def m6():
+    print("Sample3")
 
     def m1(self):
         print("Testcase1")
@@ -25,8 +31,10 @@ if __name__ == "__main__":
 
     d.m3()
     
-    d.m4()
+    Demo.m4()
     
-    d.m5()
+    Demo.m5()
+
+    Demo.m6()
 
 
